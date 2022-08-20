@@ -22,17 +22,25 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ## themes
 
-• [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark themes)
+• [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
-Beautiful colours, distinct semantic highlighting, legible comments, many great variations.
+Vibrant colours, distinct semantic highlighting, legible comments. Many great variations.
 
-• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark theme)
+• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark+)
 
 Vivid colours, even luminance. Distinct semantic highlighting. Legible comments.
 
-• [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark theme)
+• [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
-Extremely popular. Nice colours, distinct semantic highligting. But like 99% of themes on the marketplace, comments are more muted (compared to the preceding themes).
+Soft colours, even luminance. Distinct semantic highlighting. Legible comments.
+
+• [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
+
+Very popular. Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. But major shortcomings on its colour theme: does not distinguish module names by unique colour; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay.
+
+• [Eva Theme - by fisheva](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (light; has dark theme too but not good)
+
+• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
 
 ## extensions
 
