@@ -3,7 +3,7 @@
 ### • JetBrains Mono | [main site](https://www.jetbrains.com/lp/mono/) | [github release](https://github.com/JetBrains/JetBrainsMono/)
 
 Pragmatic, no-frills, elegant design optimised for easy/fast reading.
-Unique feature: rectangular characters allow eyes to smoothly scan through the text.
+Unique feature: rectangular characters allow eyes to smoothly scan through text.
 
 ### • Like JetBrains Mono, but with more "character" (less strictly rectangular character designs):
 
