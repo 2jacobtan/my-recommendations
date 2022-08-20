@@ -38,9 +38,13 @@ Soft colours, even luminance. Distinct semantic highlighting. Legible comments.
 
 Very popular. Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. But major shortcomings on its colour theme: does not distinguish module names by unique colour; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay.
 
-• [Eva Theme - by fisheva](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (light; has dark theme too but not good)
-
 • [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
+
+### built-in/pre-installed themes (the good ones)
+
+Solarized {Light,Dark} | Tomorrow Night Blue (dark)
+
+These are acceptable but have major shortcomings. Solarized's colour for control flow keyword is too muted. Tomorrow Night Blue lacks colour for data constructors.
 
 ## extensions
 
