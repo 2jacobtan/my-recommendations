@@ -24,7 +24,7 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
-Vibrant colours, even luminance. Distinct semantic highlighting. legible comments. Many great variations. [Extra luminance sometimes used for semantic highlighting.]
+Vibrant colours, even luminance. Distinct semantic highlighting. Legible comments. Many great variations. [Extra luminance sometimes used for semantic highlighting.]
 
 • [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark+)
 
@@ -39,6 +39,8 @@ Soft colours, even luminance. Distinct semantic highlighting. Legible comments. 
 Very popular. Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
 
 • [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
+
+Coherent colours avoiding blue shades. Distinct semantic highlighting. Legible comments. Choice of contrast level (soft, medium, hard).
 
 ### built-in/pre-installed themes (the good ones)
 
