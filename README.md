@@ -22,7 +22,7 @@ Beautiful colours, distinct semantic highlighting, legible comments, many great 
 
 • [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark theme)
 
-Beautiful colours, even luminance. Distinct semantic highlighting. Legible comments.
+Vivid colours, even luminance. Distinct semantic highlighting. Legible comments.
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark theme)
 
