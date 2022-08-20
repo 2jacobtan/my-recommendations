@@ -12,6 +12,12 @@ Unique feature: rectangular characters allow eyes to smoothly scan through text.
 
 ### • Victor Mono (narrow; cursive italics) | [github release](https://github.com/rubjo/victor-mono)
 
+## font weight
+
+In text editor, tweak font weight setting for optimum clarity on computer screen.
+
+extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping
+
 # VSCode
 
 ## themes
