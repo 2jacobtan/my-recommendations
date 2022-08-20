@@ -24,19 +24,19 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
-Vibrant colours. Distinct semantic highlighting. legible comments. Many great variations. [Luminance may be uneven between different colours.]
+Vibrant colours, even luminance. Distinct semantic highlighting. legible comments. Many great variations. [Extra luminance sometimes used for semantic highlighting.]
 
 • [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark+)
 
-Vivid colours, even luminance. Distinct semantic highlighting. Legible comments. [Lacks colour for data constructors.]
+Vivid colours, even luminance. Distinct semantic highlighting. Legible comments. [no colour for data constructors]
 
 • [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
-Soft colours, even luminance. Distinct semantic highlighting. Legible comments. [No colour for operators.]
+Soft colours, even luminance. Distinct semantic highlighting. Legible comments. [no colour for operators]
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
-Very popular. Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour, nor data constructors; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay.
+Very popular. Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
 
 • [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
 
