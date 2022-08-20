@@ -44,7 +44,7 @@ Very popular. Icon theme + Colour theme. Icon themes are nice (better than the b
 
 Solarized {Light,Dark} | Tomorrow Night Blue (dark)
 
-These are acceptable, with minor shortcomings. Solarized's colour for control flow keyword is too muted. Tomorrow Night Blue lacks colour for data constructors.
+These are fine, with some quirks. Solarized's colour for control flow keywords is too muted. Tomorrow Night Blue has very bright font; [no colour for data constructors].
 
 ## extensions
 
