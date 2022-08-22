@@ -22,17 +22,21 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ## themes
 
+• [Ayu Mirage Plus](https://github.com/whosydd/ayu-mirage-plus) (dark)
+
+Vivid colours, even luminance. Distinct semantic highlighting.
+
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
-Vibrant colours, even luminance. Distinct semantic highlighting. Legible comments. Many great variations. [Extra luminance sometimes used for semantic highlighting.]
+Vibrant colours, even luminance. Distinct semantic highlighting. Many great variations. [Extra luminance sometimes used for semantic highlighting.]
 
 • [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark+)
 
-Vivid colours, even luminance. Distinct semantic highlighting. Legible comments. [no colour for data constructors]
+Vivid colours, even luminance. Distinct semantic highlighting. [no colour for data constructors]
 
 • [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
-Soft colours, even luminance. Distinct semantic highlighting. Legible comments. [no colour for operators]
+Soft colours, even luminance. Distinct semantic highlighting. [no colour for operators]
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
@@ -40,7 +44,7 @@ Very popular. Icon theme + Colour theme. Icon themes are nice (better than the b
 
 • [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
 
-Coherent colours avoiding blue shades. Distinct semantic highlighting. Legible comments. Choice of contrast level (soft, medium, hard).
+Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
 
 ### built-in/pre-installed themes (the good ones)
 
@@ -48,9 +52,58 @@ Solarized {Light,Dark} | Tomorrow Night Blue (dark)
 
 These are fine, with some quirks. Solarized's colour for control flow keywords is too muted. Tomorrow Night Blue has very bright font; [no colour for data constructors].
 
+### customizing a colour theme
+
+https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
+
+Many themes have comments that are too dark. Use this to customize comments colour for each theme:
+
+```json
+"editor.tokenColorCustomizations": {
+    "[Ayu Mirage Plus]": {
+        "comments": "#999"
+    }
+},
+```
+(add to `settings.json`)
+
 ## extensions
 
 • [VSpaceCode](https://vspacecode.github.io/) - Spacemacs like keybindings for Visual Studio Code (+ Vim emulation)
+
+my `settings.json` entries for the Vim extension:
+
+```json
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.easymotionKeys": "aoeuidhtns,pyfgcrl;qjkxbmwvz",
+  "vim.replaceWithRegister": true,
+  "vim.sneak": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-a>": false,
+    "<C-x>": false,
+    "<C-j>": false,
+    "<C-l>": false,
+    "<C-c>": false,
+    "<C-k>": false,
+    "<C-[>": false,
+    "<C-]>": false,
+    // "<C-pageup>": false,
+    // "<C-pagedown>": false,
+  },
+  
+  "vim.visualstar": true,
+  "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.showMarksInGutter": true,
+  "vim.searchMatchColor": "hsl(0,0%,30%)",
+  "vim.searchMatchTextColor": "rgba(120,255,255,0.9)",
+  "vim.searchHighlightColor": "rgba(120,255,255,0.9)",
+  "vim.searchHighlightTextColor": "hsl(0,0%,30%)",
+  "vim.textwidth": 79,
+```
 
 • utilities
 : [Font Switcher](https://marketplace.visualstudio.com/items?itemName=evan-buss.font-switcher)
