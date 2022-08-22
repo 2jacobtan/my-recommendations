@@ -26,6 +26,8 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different contrast levels.
 
+Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue)
+
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
 Vibrant colours, even luminance. Distinct semantic highlighting. Includes many colour variations. [Extra luminance sometimes used for semantic highlighting.]
