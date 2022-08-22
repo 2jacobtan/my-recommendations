@@ -62,7 +62,10 @@ Many themes have comments that are too dark. Use this to customize comments colo
 "editor.tokenColorCustomizations": {
     "[Ayu Mirage Plus]": {
         "comments": "#999"
-    }
+    },
+    "[Monokai Pro]": {
+      "comments": "#999"
+    }   
 },
 ```
 (add to `settings.json`)
