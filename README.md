@@ -22,15 +22,15 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ## themes
 
-• [Ayu Mirage Plus](https://github.com/whosydd/ayu-mirage-plus) (dark)
+• [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; has light theme too but not good)
 
-Vivid colours, even luminance. Distinct semantic highlighting.
+Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different contrast levels.
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
-Vibrant colours, even luminance. Distinct semantic highlighting. Many great variations. [Extra luminance sometimes used for semantic highlighting.]
+Vibrant colours, even luminance. Distinct semantic highlighting. Includes many colour variations. [Extra luminance sometimes used for semantic highlighting.]
 
-• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark+)
+• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (darker)
 
 Vivid colours, even luminance. Distinct semantic highlighting. [no colour for data constructors]
 
