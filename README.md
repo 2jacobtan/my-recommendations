@@ -28,7 +28,7 @@ Vivid colours, even luminance. Distinct semantic highlighting. Includes variatio
 
 Icon theme + Colour theme. Icon theme is great (especially the "opened folder" icon! much better than the bulit-in), can be applied separately from the colour theme.
 
-Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue)
+Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue) | [Ayu Mirage Plus](https://marketplace.visualstudio.com/items?itemName=GY.ayu-mirage-plus)
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
@@ -65,7 +65,7 @@ Many themes have comments that are too dark. Use this to customize comments colo
 ```json
 "editor.tokenColorCustomizations": {
     "[Ayu Mirage Plus]": {
-        "comments": "#999"
+        "comments": "#789"
     },
     "[Monokai Pro]": {
       "comments": "#999"
