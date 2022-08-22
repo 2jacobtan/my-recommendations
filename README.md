@@ -22,7 +22,7 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ## themes
 
-### S-tier (especially great for Haskell)
+### S-tier
 
 • [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; has light theme too but not good)
 
@@ -32,13 +32,15 @@ Icon theme + Colour theme. Icon theme is great (especially the "opened folder" i
 
 Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue) | [Ayu Mirage Plus](https://marketplace.visualstudio.com/items?itemName=GY.ayu-mirage-plus)
 
-• [Moonlight II - by atomiks](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight)
+• [Moonlight II - by atomiks](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight) (dark)
 
 Vivid colours, even luminance. Distinct semantic highlighting. Optional italics.
 
-Very similar to Ayu, but with blue and orange switched. Best semantic highlight colour variety out of all the themes in this list. (Perfect for Haskell.)
+Similar feel to Ayu, but with blue and orange switched.
 
-• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
+Incredible semantic highlight colour variety (e.g. JSON has different colours for deeper nesting).
+
+• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; light theme A-tier)
 
 Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
 
@@ -54,17 +56,21 @@ Vibrant colours, even luminance. Distinct semantic highlighting. Includes many c
 
 Vivid colours, even luminance. Distinct semantic highlighting. [no colour for data constructors]
 
-I tweaked it a ton and it's S-tier now with the tweaks (see `customizing a colour theme` section below).
+This is S-tier with the tweaks I've made (see `customizing a colour theme` section below).
 
-### B-tier
+### B-tier (some may consider these S-tier; depends on your preference)
 
 • [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
 Soft colours, even luminance. Distinct semantic highlighting. [no colour for operators, see `customizing a colour theme` section below]
 
+A fork of [One Dark Pro - by binaryify](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme), super popular theme.
+
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
-Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 90% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
+Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme.
+
+Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 90% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
 
 ### built-in/pre-installed themes (the good ones)
 
