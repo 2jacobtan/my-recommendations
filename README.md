@@ -26,6 +26,8 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different contrast levels.
 
+Icon theme + Colour theme. Icon theme is great (especially the "opened folder" icon! much better than the bulit-in), can be applied separately from the colour theme.
+
 Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue)
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
@@ -42,7 +44,7 @@ Soft colours, even luminance. Distinct semantic highlighting. [no colour for ope
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
-Very popular. Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
+Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
 
 • [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
 
