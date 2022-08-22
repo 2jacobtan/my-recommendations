@@ -22,6 +22,8 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ## themes
 
+### S-tier (especially great for Haskell)
+
 • [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; has light theme too but not good)
 
 Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different contrast levels.
@@ -29,6 +31,20 @@ Vivid colours, even luminance. Distinct semantic highlighting. Includes variatio
 Icon theme + Colour theme. Icon theme is great (especially the "opened folder" icon! much better than the bulit-in), can be applied separately from the colour theme.
 
 Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue) | [Ayu Mirage Plus](https://marketplace.visualstudio.com/items?itemName=GY.ayu-mirage-plus)
+
+• [Moonlight II - by atomiks](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight)
+
+Vivid colours, even luminance. Distinct semantic highlighting. Optional italics.
+
+Very similar to Ayu, but with blue and orange switched. Best semantic highlight colour variety out of all the themes in this list. (Perfect for Haskell.)
+
+• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
+
+Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
+
+Feels like Moonlight II, but with an orange-red filter.
+
+### A-tier (could be S-tier with some tweaks)
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
@@ -40,15 +56,13 @@ Vivid colours, even luminance. Distinct semantic highlighting. [no colour for da
 
 • [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
-Soft colours, even luminance. Distinct semantic highlighting. [no colour for operators]
+Soft colours, even luminance. Distinct semantic highlighting. [no colour for operators, see `customizing a colour theme` section below]
+
+### B-tier
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
-Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 99% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
-
-• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; has light theme too but not good)
-
-Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
+Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme. Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 90% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
 
 ### built-in/pre-installed themes (the good ones)
 
@@ -60,7 +74,7 @@ These are fine, with some quirks. Solarized's colour for control flow keywords i
 
 https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
 
-Many themes have comments that are too dark. Use this to customize comments colour for each theme:
+Use this to customize each theme (lighten comments colour, add operator colour, etc.):
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -69,7 +83,23 @@ Many themes have comments that are too dark. Use this to customize comments colo
     },
     "[Monokai Pro]": {
       "comments": "#999"
-    }   
+    },
+    "[Atom One Dark Coal]": {
+      "textMateRules": [
+        {
+          "scope": "keyword.operator",
+          "settings": {
+            // "foreground": "#e40"
+            // "foreground": "#f88"
+            // "foreground": "#4c8"
+            // "foreground": "#48f"
+            "foreground": "#7cf"
+            // "foreground": "#99f"
+            // "foreground": "#faf"
+          }
+        }
+      ]
+    }
 },
 ```
 (add to `settings.json`)
