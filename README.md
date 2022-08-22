@@ -142,6 +142,24 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
             "fontStyle": "bold"
           }}]
     },
+    "[Noctis*]": {
+      "textMateRules": [
+        { "scope":"keyword.control",
+          "settings": {
+            "foreground": "#e30",
+            "fontStyle": "italic bold"
+          }},
+        { "scope":"keyword.operator",
+          "settings": {
+            "foreground": "#eb7",
+            "fontStyle": ""
+          }},
+        { "scope":"storage.type",
+          "settings": {
+            // "foreground": "#eb7",
+            "fontStyle": "italic"
+          }}]
+    },
     "[Monokai Pro]": {
       "comments": "#999"
     },
