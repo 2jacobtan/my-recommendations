@@ -54,11 +54,13 @@ Vibrant colours, even luminance. Distinct semantic highlighting. Includes many c
 
 Vivid colours, even luminance. Distinct semantic highlighting. [no colour for data constructors]
 
+I tweaked it a ton and it's S-tier now with the tweaks (see `customizing a colour theme` section below).
+
+### B-tier
+
 • [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
 Soft colours, even luminance. Distinct semantic highlighting. [no colour for operators, see `customizing a colour theme` section below]
-
-### B-tier
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
@@ -77,17 +79,75 @@ https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
 Use this to customize each theme (lighten comments colour, add operator colour, etc.):
 
 ```json
-"editor.tokenColorCustomizations": {
+  "workbench.colorCustomizations": {
+    "[Ayu Mirage Plus]":{
+      "editor.background": "#242936"
+    },
+    "[After Dark*]": {
+      "editor.background": "#242936",
+      "terminal.background": "#192430"
+    }
+  },
+  "editor.tokenColorCustomizations": {
     "[Ayu Mirage Plus]": {
-        "comments": "#789"
+      "comments": "#789",
+      "textMateRules": [
+        { "scope":"keyword.operator",
+          "settings": {
+            "foreground": "#F29E74",
+          }},
+        { "scope":"keyword.other",
+          "settings": {
+            // "foreground": "#F29E74",
+            "fontStyle": ""
+          }}]
+    },
+    "[Ayu*]": {
+      "textMateRules": [
+        { "scope":"keyword.control",
+          "settings": {
+            "foreground": "#e30",
+            "fontStyle": "italic bold"
+          }},
+        { "scope":"entity.name",
+          "settings": {
+            "foreground": "#b9f",
+            "fontStyle": "bold"
+          }},
+        { "scope":"source",
+          "settings": {
+            "foreground": "#CBCCC6",
+          }},
+        { "scope":"storage.type",
+          "settings": {
+            // "foreground": "#95E6CB",
+            "fontStyle": "italic"
+          }},
+        { "scope":"constant.other",
+          "settings": {
+            // "foreground": "#73D0FF",
+          }}]
+    },
+    "[Moonlight*]": {
+      "textMateRules": [
+        { "scope":"keyword.control",
+          "settings": {
+            "foreground": "#e30",
+            "fontStyle": "italic bold"
+          }},
+        { "scope":"entity.name",
+          "settings": {
+            "foreground": "#2af",
+            // "foreground": "#75afff",
+            "fontStyle": "bold"
+          }}]
     },
     "[Monokai Pro]": {
       "comments": "#999"
     },
     "[Atom One Dark Coal]": {
       "textMateRules": [
-        {
-          "scope": "keyword.operator",
+        { "scope": "keyword.operator",
           "settings": {
             // "foreground": "#e40"
             // "foreground": "#f88"
@@ -96,11 +156,51 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
             "foreground": "#7cf"
             // "foreground": "#99f"
             // "foreground": "#faf"
-          }
-        }
-      ]
+          }}]
+    },
+    "[After Dark*]": {
+      "comments": "#89a",
+      "textMateRules": [
+        { "scope":"keyword.other",
+          "settings": {
+            "foreground": "#99f",
+          }},
+        { "scope":"keyword.operator",
+          "settings": {
+            "foreground": "#5af",
+          }},
+        { "scope":"keyword.control",
+          "settings": {
+            "foreground": "#e40",
+            "fontStyle": "italic bold"
+          }},
+        { "scope":"constant.other",
+          "settings": {
+            "foreground": "#5e0",
+          }},
+        { "scope":"storage.type",
+          "settings": {
+            "foreground": "#E8C37D",
+            "fontStyle": "italic"
+        }},
+      { "scope":"entity.name",
+        "settings": {
+          "foreground": "#BA7BCC",
+          "fontStyle": "bold"
+        }}]
+    },
+    "[After Dark No Italics]": {
+      "textMateRules": [
+        { "scope": "comment",
+          "settings": {
+            "fontStyle": ""
+          }},
+        { "scope":"storage.type",
+          "settings": {
+            "fontStyle": ""
+          }}]
     }
-},
+  }
 ```
 (add to `settings.json`)
 
