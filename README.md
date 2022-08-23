@@ -112,7 +112,7 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
       "textMateRules": [
         { "scope":"keyword.control",
           "settings": {
-            "foreground": "#e30",
+            // "foreground": "#e30",
             "fontStyle": "italic bold"
           }},
         { "scope":"entity.name",
@@ -138,7 +138,7 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
       "textMateRules": [
         { "scope":"keyword.control",
           "settings": {
-            "foreground": "#e30",
+            // "foreground": "#bb5235",
             "fontStyle": "italic bold"
           }},
         { "scope":"entity.name",
@@ -152,7 +152,7 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
       "textMateRules": [
         { "scope":"keyword.control",
           "settings": {
-            "foreground": "#e30",
+            // "foreground": "#e30",
             "fontStyle": "italic bold"
           }},
         { "scope":"keyword.operator",
@@ -169,7 +169,7 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
     "[Monokai Pro]": {
       "comments": "#999"
     },
-    "[Atom One Dark Coal]": {
+    "[*One Dark*]": {
       "textMateRules": [
         { "scope": "keyword.operator",
           "settings": {
@@ -187,30 +187,30 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
       "textMateRules": [
         { "scope":"keyword.other",
           "settings": {
-            "foreground": "#99f",
+            "foreground": "#5bf"
           }},
         { "scope":"keyword.operator",
           "settings": {
-            "foreground": "#5af",
+            "foreground": "#d9b",
           }},
         { "scope":"keyword.control",
           "settings": {
-            "foreground": "#e40",
-            "fontStyle": "italic bold"
+            "fontStyle": "italic bold",
+            "foreground": "#d9b"
           }},
         { "scope":"constant.other",
           "settings": {
-            "foreground": "#5e0",
+            "foreground": "#ea6",
           }},
         { "scope":"storage.type",
           "settings": {
-            "foreground": "#E8C37D",
+            "foreground": "#ec7",
             "fontStyle": "italic"
         }},
-      { "scope":"entity.name",
-        "settings": {
-          "foreground": "#BA7BCC",
-          "fontStyle": "bold"
+        { "scope":"entity.name",
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#BA7BCC"
         }}]
     },
     "[After Dark No Italics]": {
