@@ -26,11 +26,15 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 • [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; light)
 
-Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different contrast levels.
+Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different brightness levels.
 
 Icon theme + Colour theme. Icon theme is great (especially the "opened folder" icon! much better than the bulit-in), can be applied separately from the colour theme.
 
 Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue) | [Ayu Mirage Plus](https://marketplace.visualstudio.com/items?itemName=GY.ayu-mirage-plus)
+
+• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; light)
+
+Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
 
 • [Moonlight II - by atomiks](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight) (dark)
 
@@ -38,19 +42,13 @@ Vivid colours, even luminance. Distinct semantic highlighting. Optional italics.
 
 Similar feel to Ayu, but with blue and orange switched.
 
-Incredible semantic highlight colour variety (e.g. JSON has different colours for deeper nesting).
+Vast semantic highlight colour variety (e.g. JSON has different colours for deeper nesting).
 
-• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; light)
+• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (deep dark)
 
-Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
+Vivid colours, even luminance. Distinct semantic highlighting. Medium contrast, low brightness. [no colour preset for data constructors]
 
-Feels like Moonlight II, but with an orange-red filter.
-
-• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark)
-
-Vivid colours, even luminance. Distinct semantic highlighting. Medium contrast. [no colour preset for data constructors]
-
-I consider this S-tier with the tweaks I've made (see `customizing a colour theme` section below).
+Needs some tweaks for colour variety. (see `customizing a colour theme` section below)
 
 ### A-tier (great in their own right)
 
@@ -94,11 +92,12 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
     "[Ayu Mirage Plus]":{
       "editor.background": "#242936"
     },
-    "[After Dark*]": {
-      "editor.background": "#242936",
-      "terminal.background": "#192430",
-      "editorRuler.foreground": "#2f3646"
-    }
+    // "[After Dark*]": {
+    //   "terminal.background": "#192430",
+    //   "editor.background": "#242936",
+    //   "editorRuler.foreground": "#2f3646",
+    //   "editorIndentGuide.background": "#2f3646"
+    // }
   },
   "editor.tokenColorCustomizations": {
     "[Ayu Mirage Plus]": {
