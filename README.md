@@ -58,7 +58,7 @@ I consider this S-tier with the tweaks I've made (see `customizing a colour them
 
 Vibrant colours, even luminance. Distinct semantic highlighting. Includes many colour variations. Very fancy.
 
-### B-tier (solid options; no frills)
+### B-tier (solid options, no frills)
 
 • [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
