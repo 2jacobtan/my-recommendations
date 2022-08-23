@@ -24,7 +24,7 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ### S-tier (personal favourites)
 
-• [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; has light theme too but not good)
+• [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; light)
 
 Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different contrast levels.
 
@@ -40,7 +40,7 @@ Similar feel to Ayu, but with blue and orange switched.
 
 Incredible semantic highlight colour variety (e.g. JSON has different colours for deeper nesting).
 
-• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; light theme A-tier)
+• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; light)
 
 Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
 
@@ -54,7 +54,7 @@ I consider this S-tier with the tweaks I've made (see `customizing a colour them
 
 ### A-tier (great in their own right)
 
-• [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
+• [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (dark; light)
 
 Vibrant colours, even luminance. Distinct semantic highlighting. Includes many colour variations. Very fancy.
 
@@ -80,7 +80,7 @@ Muted control flow keyword colours. "Boring," but it works.
 
 • Tomorrow Night Blue (dark, high contrast)
 
-Bright font; high contrast. [no colour preset for data constructors]
+Bright font, high contrast. [no colour preset for data constructors]
 
 ### customizing a colour theme
 
@@ -89,6 +89,8 @@ https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
 Use this to customize each theme (lighten comments colour, add operator colour, etc.):
 
 ```json
+  "workbench.sideBar.location": "right",
+  "workbench.colorCustomizations": {
     "[Ayu Mirage Plus]":{
       "editor.background": "#242936"
     },
@@ -159,6 +161,17 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
             "foreground": "#fb9de7"
           }}]
     },
+    "[Vim*]": {
+      "textMateRules": [
+        { "scope":"keyword.control",
+          "settings": {
+            "fontStyle": "italic bold"
+          }},
+        { "scope":"storage.type",
+          "settings": {
+            "fontStyle": "italic"
+          }}]
+    },
     "[Noctis*]": {
       "textMateRules": [
         { "scope":"keyword.control",
@@ -168,7 +181,7 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
           }},
         { "scope":"keyword.operator",
           "settings": {
-            "foreground": "#eb7",
+            "foreground": "#d1b81a",
             "fontStyle": ""
           }},
         { "scope":"storage.type",
