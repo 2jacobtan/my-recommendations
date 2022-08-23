@@ -86,7 +86,7 @@ https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
 
 Use this to customize each theme (lighten comments colour, add operator colour, etc.):
 
-```json
+```jsonc
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
     "[Ayu Mirage Plus]":{
