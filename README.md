@@ -22,7 +22,7 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ## themes
 
-### S-tier
+### S-tier (personal favourites)
 
 • [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; has light theme too but not good)
 
@@ -34,7 +34,7 @@ Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName
 
 • [Moonlight II - by atomiks](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight) (dark)
 
-Vivid colours, even luminance. Distinct semantic highlighting. Optional italics.
+Vivid colours, even luminance. Distinct semantic highlighting. Optional italics. Medium contrast.
 
 Similar feel to Ayu, but with blue and orange switched.
 
@@ -46,23 +46,23 @@ Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of
 
 Feels like Moonlight II, but with an orange-red filter.
 
-### A-tier (could be S-tier with some tweaks)
+• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (dark)
+
+Vivid colours, even luminance. Distinct semantic highlighting. Medium contrast. [no colour preset for data constructors]
+
+I consider this S-tier with the tweaks I've made (see `customizing a colour theme` section below).
+
+### A-tier (great in their own right)
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (light and dark)
 
-Vibrant colours, even luminance. Distinct semantic highlighting. Includes many colour variations. [Extra luminance sometimes used for semantic highlighting.]
+Vibrant colours, even luminance. Distinct semantic highlighting. Includes many colour variations. Very fancy.
 
-• [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (darker)
-
-Vivid colours, even luminance. Distinct semantic highlighting. [no colour for data constructors]
-
-This is S-tier with the tweaks I've made (see `customizing a colour theme` section below).
-
-### B-tier (some may consider these S-tier; depends on your preference)
+### B-tier (solid options; no frills)
 
 • [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
 
-Soft colours, even luminance. Distinct semantic highlighting. [no colour for operators, see `customizing a colour theme` section below]
+Soft colours, even luminance. Distinct semantic highlighting. [no colour preset for operators, see `customizing a colour theme` section below]
 
 A fork of [One Dark Pro - by binaryify](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme), super popular theme.
 
@@ -70,13 +70,17 @@ A fork of [One Dark Pro - by binaryify](https://marketplace.visualstudio.com/ite
 
 Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme.
 
-Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 90% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour for data constructors]
+Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 90% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour preset for data constructors]
 
 ### built-in/pre-installed themes (the good ones)
 
-Solarized {Light,Dark} | Tomorrow Night Blue (dark)
+• Solarized {Light,Dark}
 
-These are fine, with some quirks. Solarized's colour for control flow keywords is too muted. Tomorrow Night Blue has very bright font; [no colour for data constructors].
+Muted control flow keyword colours. "Boring," but it works.
+
+• Tomorrow Night Blue (dark, high contrast)
+
+Bright font; high contrast. [no colour preset for data constructors]
 
 ### customizing a colour theme
 
@@ -85,13 +89,13 @@ https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
 Use this to customize each theme (lighten comments colour, add operator colour, etc.):
 
 ```json
-  "workbench.colorCustomizations": {
     "[Ayu Mirage Plus]":{
       "editor.background": "#242936"
     },
     "[After Dark*]": {
       "editor.background": "#242936",
-      "terminal.background": "#192430"
+      "terminal.background": "#192430",
+      "editorRuler.foreground": "#2f3646"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -120,19 +124,20 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
             "foreground": "#b9f",
             "fontStyle": "bold"
           }},
-        { "scope":"source",
-          "settings": {
-            "foreground": "#CBCCC6",
-          }},
+        // { "scope":"source",
+        //   "settings": {
+        //     "foreground": "#CBCCC6",
+        //   }},
         { "scope":"storage.type",
           "settings": {
-            // "foreground": "#95E6CB",
+            // "foreground": "#95E6CB", // can't be changed
             "fontStyle": "italic"
           }},
-        { "scope":"constant.other",
-          "settings": {
-            // "foreground": "#73D0FF",
-          }}]
+        // { "scope":"constant.other",
+        //   "settings": {
+        //     "foreground": "#73D0FF",
+        //   }}
+        ]
     },
     "[Moonlight*]": {
       "textMateRules": [
@@ -141,11 +146,17 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
             // "foreground": "#bb5235",
             "fontStyle": "italic bold"
           }},
+        { "scope":"keyword.other",
+          "settings": {
+            // "foreground": "#75afff"
+            // "foreground": "#4af"
+            // "foreground": "#65BCFF"
+            // "foreground": "#C099FF" // original
+          }},
         { "scope":"entity.name",
           "settings": {
-            "foreground": "#2af",
-            // "foreground": "#75afff",
-            "fontStyle": "bold"
+            "fontStyle": "bold",
+            "foreground": "#fb9de7"
           }}]
     },
     "[Noctis*]": {
