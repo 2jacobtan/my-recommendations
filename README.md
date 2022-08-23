@@ -257,7 +257,7 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
 
 my `settings.json` entries for the Vim extension:
 
-```json
+```jsonc
   "vim.camelCaseMotion.enable": true,
   "vim.easymotion": true,
   "vim.easymotionKeys": "aoeuidhtns,pyfgcrl;qjkxbmwvz",
