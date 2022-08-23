@@ -42,7 +42,7 @@ Vivid colours, even luminance. Distinct semantic highlighting. Optional italics.
 
 Similar feel to Ayu, but with blue and orange switched.
 
-Vast semantic highlight colour variety (e.g. JSON has different colours for deeper nesting).
+Vast semantic highlight colour variety (e.g. JSON).
 
 • [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (deep dark)
 
