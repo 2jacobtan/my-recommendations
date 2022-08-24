@@ -110,6 +110,12 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
     "[*Dark*]": {
       "editorCursor.background": "#000",
       "editorCursor.foreground": "#fffc"
+    },
+    "[After Dark*]": {
+      "scrollbarSlider.hoverBackground": "#fff2",
+      "scrollbarSlider.activeBackground": "#fff2",
+      "scrollbarSlider.background": "#fff2",
+      // "scrollbar.shadow": "#ff0000",
     }
     // "[After Dark*]": {
     //   "terminal.background": "#192430",
@@ -269,7 +275,6 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
     }
   },
   "terminal.integrated.cursorBlinking": true
-}
 ```
 (add to `settings.json`)
 
