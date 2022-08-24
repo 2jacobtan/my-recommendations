@@ -94,8 +94,9 @@ Bright font, high contrast. [no colour preset for data constructors]
 
 ### hidden gems
 
-• [RubyBlue Theme - by hirofumii](https://marketplace.visualstudio.com/items?itemName=hirofumii.rubyblue-theme)
-| [Zeonica - by Andrew Vallette](https://marketplace.visualstudio.com/items?itemName=andrewvallette.zeonica)
+• [RubyBlue Theme - by hirofumii](https://marketplace.visualstudio.com/items?itemName=hirofumii.rubyblue-theme) (dark, high contrast)
+
+• [Zeonica - by Andrew Vallette](https://marketplace.visualstudio.com/items?itemName=andrewvallette.zeonica) (dark; colourful)
 
 ### customizing a colour theme
 
