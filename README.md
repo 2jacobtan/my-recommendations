@@ -42,7 +42,7 @@ Similar feel to Ayu, but with blue and orange switched.
 
 • [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (deep dark)
 
-Medium contrast, low brightness. [no colour preset for data constructors]
+Optimised for low-light environment. Medium contrast, low brightness.  [no colour preset for data constructors]
 
 Needs some tweaks for colour variety. (see `customizing a colour theme` section below)
 
