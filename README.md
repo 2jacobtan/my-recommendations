@@ -76,6 +76,8 @@ Family: [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US
 
 Pragmatic colour scheme. Normal shades of red, green, blue, orange clearly denote different elements.
 
+Has several useful filters to tweak colour temperature and brightness.
+
 Includes icon theme that can be applied separately.
 
 Free trial with occasional nag to pay. [no colour preset for data constructors]
