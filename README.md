@@ -20,7 +20,7 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 # VSCode
 
-## themes
+## Themes
 
 Sorted by popularity https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs
 
