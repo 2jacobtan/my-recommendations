@@ -89,9 +89,16 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
 ```jsonc
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#aaa6",
+    "editor.selectionHighlightBorder": "#808080",
+    // "editor.hoverHighlightBackground": "#bbb3",
     "[Ayu Mirage Plus]":{
       "editor.background": "#242936"
     },
+    "[*Dark*]": {
+      "editorCursor.background": "#000",
+      "editorCursor.foreground": "#fffc"
+    }
     // "[After Dark*]": {
     //   "terminal.background": "#192430",
     //   "editor.background": "#242936",
@@ -101,7 +108,8 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
   },
   "editor.tokenColorCustomizations": {
     "[Ayu Mirage Plus]": {
-      "comments": "#789",
+      // "comments": "#789",
+      "comments": "#B8CFE680",
       "textMateRules": [
         { "scope":"keyword.operator",
           "settings": {
@@ -247,7 +255,9 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
             "fontStyle": ""
           }}]
     }
-  }
+  },
+  "terminal.integrated.cursorBlinking": true
+}
 ```
 (add to `settings.json`)
 
