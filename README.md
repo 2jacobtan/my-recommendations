@@ -310,7 +310,7 @@ my `settings.json` entries for the Vim extension:
   "vim.highlightedyank.enable": true,
   "vim.showMarksInGutter": true,
   "vim.searchMatchColor": "rgba(120,255,255,0.9)",
-  "vim.searchMatchTextColor": "hsl(0,0%,30%)",
+  "vim.searchMatchTextColor": "hsl(0,0%,0%)",
   "vim.searchHighlightColor": "hsl(0,0%,50%)",
   "vim.searchHighlightTextColor": "rgba(120,255,255,0.9)",
   "vim.textwidth": 79,
