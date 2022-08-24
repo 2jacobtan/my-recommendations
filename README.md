@@ -22,53 +22,57 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 ## themes
 
-### S-tier (personal favourites)
+Sorted by popularity https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs
+
+### vividly coloured
 
 • [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; light)
 
-Vivid colours, even luminance. Distinct semantic highlighting. Includes variations with different brightness levels.
+Choice of background brightness level ("bordered", "mirage", "dark").
 
-Icon theme + Colour theme. Icon theme is great (especially the "opened folder" icon! much better than the bulit-in), can be applied separately from the colour theme.
+Icon theme + Colour theme. Icon theme is nice (especially the "opened folder" icon), can be applied separately from the colour theme.
 
-Forked variants: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue) | [Ayu Mirage Plus](https://marketplace.visualstudio.com/items?itemName=GY.ayu-mirage-plus)
-
-• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; light)
-
-Coherent colours avoiding blue shades. Distinct semantic highlighting. Choice of contrast level (soft, medium, hard).
+Family: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue) | [Ayu Mirage Plus](https://marketplace.visualstudio.com/items?itemName=GY.ayu-mirage-plus)
 
 • [Moonlight II - by atomiks](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight) (dark)
 
-Vivid colours, even luminance. Distinct semantic highlighting. Optional italics. Medium contrast.
+Vast semantic highlight colour variety (e.g. JSON). Optional italics. Medium contrast.
 
 Similar feel to Ayu, but with blue and orange switched.
 
-Vast semantic highlight colour variety (e.g. JSON).
-
 • [After Dark - by Simeon Kerkola](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark&ssr=false#review-details) (deep dark)
 
-Vivid colours, even luminance. Distinct semantic highlighting. Medium contrast, low brightness. [no colour preset for data constructors]
+Medium contrast, low brightness. [no colour preset for data constructors]
 
 Needs some tweaks for colour variety. (see `customizing a colour theme` section below)
 
-### A-tier (great in their own right)
+### unique style
+
+• [Vim Theme - by HarryHopkinson](https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme) (dark; light)
+
+Choice of contrast level (soft, medium, hard). [This theme is one amongst several Gruvbox clones.]
 
 • [Noctis - by Liviu Schera](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) (dark; light)
 
-Vibrant colours, even luminance. Distinct semantic highlighting. Includes many colour variations. Very fancy.
+Fancy package with many colour filters.
 
-### B-tier (solid options, no frills)
+### simply elegant
 
-• [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) (dark)
+• [Atom One Dark Theme - by Mahmoud Ali](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) (dark)
 
-Soft colours, even luminance. Distinct semantic highlighting. [no colour preset for operators, see `customizing a colour theme` section below]
+[no colour preset for operators, see `customizing a colour theme` section below]
 
-A fork of [One Dark Pro - by binaryify](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme), super popular theme.
+Family: [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping) | [One Dark Pro - by binaryify](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) | [One Dark Vivid - by Kevin Kozee](https://marketplace.visualstudio.com/items?itemName=kkozee.theme-one-dark-vivid)
+
+• [Night Owl - by sarah.drasner](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) (dark; light version less popular)
+
+Well-calibrated for low-light clarity (high contrast).
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
-Icon theme + Colour theme. Icon themes are nice (better than the bulit-in), can be applied separately from the colour theme.
+Icon theme + Colour theme. Icon themes are nice, can be applied separately from the colour theme.
 
-Some shortcomings on its colour theme: does not distinguish module names by unique colour; like 90% of themes on the marketplace, comments are too muted thus hard to read; free trial with occasional nag to pay. [no colour preset for data constructors]
+Free trial with occasional nag to pay. [no colour preset for data constructors]
 
 ### built-in/pre-installed themes (the good ones)
 
