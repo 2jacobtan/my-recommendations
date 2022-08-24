@@ -74,6 +74,8 @@ Family: [Atom One Dark Coal - by shiftybody](https://developer.mozilla.org/en-US
 
 • [Monokai Pro - by Monokai original author](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) (dark)
 
+Pragmatic colour scheme. Normal shades of red, green, blue, orange clearly denote different elements.
+
 Includes icon theme that can be applied separately.
 
 Free trial with occasional nag to pay. [no colour preset for data constructors]
