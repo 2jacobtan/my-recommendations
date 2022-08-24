@@ -92,6 +92,11 @@ Muted control flow keyword colours. "Boring," but it works.
 
 Bright font, high contrast. [no colour preset for data constructors]
 
+### hidden gems
+
+• [RubyBlue Theme - by hirofumii](https://marketplace.visualstudio.com/items?itemName=hirofumii.rubyblue-theme)
+| [Zeonica - by Andrew Vallette](https://marketplace.visualstudio.com/items?itemName=andrewvallette.zeonica)
+
 ### customizing a colour theme
 
 https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
