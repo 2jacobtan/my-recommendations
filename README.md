@@ -24,13 +24,15 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 Sorted by popularity https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs
 
+I like Noctis Lux at daytime. All the dark themes here are great for nighttime, many also good for daytime.
+
 ### vividly coloured
 
 • [Ayu - by teabyii](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (dark; light)
 
 Choice of background brightness level (bordered, mirage, dark).
 
-Includes icon theme that can be applied separately. "Opened folder" icon is very nice.
+Includes icon theme that can be applied separately. "Opened folder" icon is nice.
 
 Family: [Ayu Green](https://marketplace.visualstudio.com/items?itemName=Siris01.ayu-green) | [Ayu Baby Blue](https://marketplace.visualstudio.com/items?itemName=KF.ayu-baby-blue) | [Ayu Mirage Plus](https://marketplace.visualstudio.com/items?itemName=GY.ayu-mirage-plus)
 
@@ -45,10 +47,6 @@ Similar feel to Ayu, but with blue and orange switched.
 Optimised for low-light environment. Medium contrast, low brightness.  [no colour preset for data constructors]
 
 Needs some tweaks for colour variety. (see `customizing a colour theme` section below)
-
-• [GitHub Theme - by GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) (dark; light)
-
-Choice of contrast levels (dimmed, default, high contrast). Loud orange-red colour used often.
 
 ### unique style
 
@@ -98,7 +96,15 @@ Bright font, high contrast. [no colour preset for data constructors]
 
 • [Zeonica - by Andrew Vallette](https://marketplace.visualstudio.com/items?itemName=andrewvallette.zeonica) (dark; colourful)
 
-### customizing a colour theme
+### colourblind friendly
+
+• [GitHub Theme - by GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) (dark; light)
+
+Wide range of contrast levels (dark, dimmed, default, high contrast, colorblind).
+
+Red, blue, purple. No green. A basic colour scheme great for colourblindness.
+
+## customizing a colour theme
 
 https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
 
