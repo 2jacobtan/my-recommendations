@@ -24,7 +24,7 @@ extra reference https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#com
 
 Sorted by popularity https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs
 
-I like Noctis Lux at daytime. All the dark themes here are great for nighttime, many also good for daytime.
+I like Noctis Lux at daytime. All dark themes here are great for nighttime, many also good for daytime.
 
 ### vividly coloured
 
