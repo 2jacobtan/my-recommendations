@@ -114,7 +114,9 @@ Use this to customize each theme (lighten comments colour, add operator colour, 
   "workbench.sideBar.location": "right",
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#aaa6",
+    "editor.selectionForeground": "#f008", //only works for high contrast
     "editor.selectionHighlightBorder": "#808080",
+    "editor.selectionHighlightBackground": "#0ff3",
     // "editor.hoverHighlightBackground": "#bbb3",
     "[Ayu Mirage Plus]":{
       "editor.background": "#242936"
